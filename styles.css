@@ -1,0 +1,532 @@
+body {
+    margin: 0;
+    min-width: 1000px;
+    font-family: 'Montserrat';
+}
+
+header {
+    background-image: url(pics/header/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.footer {
+    background-image: url(pics/footer/footer-background.jpg);
+}
+
+h1 {
+    font-family: 'Droid Serif', arial;
+    font-size: 40px;
+    font-weight: lighter;
+    letter-spacing: -1px;
+    text-align: center;
+    margin: 195px 0 0 0;
+    color: white;
+}
+
+h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    color: #222222;
+    margin: 0;
+    padding: 110px 0 0 0;
+   /* letter-spacing: -2px;*/
+}
+
+footer h2 {
+    padding: 100px 0 0 0;
+    color: white;
+}
+
+.header-container, .footer-container, .services-container, .portfolio-container, .about-container, .our-team-container, .sponsors, .foot-line {
+    width: 940px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.logo {
+    display: inline-block; 
+    vertical-align: top;
+    margin-top: 55px;
+    margin-left: 5px;
+}
+
+.navigation {
+    display: inline-block; 
+    position: absolute;
+    top: 55px;
+    right: 0;
+    vertical-align: top;
+}
+
+.navigation a {
+    color: white;
+    font-size: 13px;
+    font-weight: 600;
+    text-decoration: none;
+    text-transform: uppercase;
+    line-height: 2.5em;
+    letter-spacing: 0.5px;
+    padding-right: 40px;
+}
+
+.navigation a:last-child {
+    padding-right: 0;    
+}
+
+.navigation a:hover {
+    color: #fed136;
+    text-shadow: -1px -1px #fed136, 1px 1px gray, 2px 2px #7a7a7a, 15px 15px 30px rgba(0, 0, 0, .4), 15px 15px 10px rgba(0, 0, 0, .4);
+}
+
+.greetings {
+    color: white;
+    font-weight: bold;
+    font-size: 74px;
+    /*letter-spacing: -2px;*/
+    text-align: center;
+    text-transform: uppercase;
+    line-height: normal;
+    margin: 25px 0 40px 0;
+}
+
+.button, .button-bottle, .button-link {
+    text-align: center;
+}
+
+.button {
+     padding-bottom: 163px;
+}
+
+.button-link, button {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #fed136;
+    color: white;
+    text-transform: uppercase;
+    transition: .4s;
+    width: 240px;
+    height: 65px;
+    border: none;
+    border-radius: 3px;
+}
+
+.button-link {
+    display: inline-block;
+    margin: 0 auto;
+    line-height: 3.5em;
+    text-decoration: none;
+}
+
+.button-link:hover, button:hover {
+    background-color: white;
+    color: #fed136;
+    box-shadow: inset 3px 3px 6px rgba(154, 147, 140, 0.5), 1px 1px 5px rgba(255, 255, 255, 1);
+    transform: skewX(-20deg);
+    cursor: pointer;
+}
+
+.services-container, .footer-container, .portfolio-container, .about-container, .our-team-container, .sponsors {
+    text-align: center;
+    font-size: 0;
+}
+
+.header-description {
+    font-family: 'Droid Serif', arial;
+    font-size: 16px;
+    margin-top: 9px;
+    color: #777777;
+}
+
+.services-tools {
+    display: inline-block;
+    box-sizing: border-box;
+    vertical-align: top;
+    width: 33.33%;
+    margin: 60px 0 100px 0;
+}
+
+.services-tools h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: bolder;
+    color: #222222;
+   /* letter-spacing: -1px;*/
+    margin-bottom: 0;
+}
+
+.services-tools p {
+    font-family: 'Roboto Slab', arial;
+    font-size: 14px; 
+    line-height: 1.5em;
+    letter-spacing: -0.5px;
+    margin-top: 11px;
+    color: #777777;
+}
+
+.pic1 {
+    padding: 0 30px 0 0px;
+}
+
+.pic3 {
+    padding: 0 0 0 30px;
+}
+
+.text1 {
+    padding: 0 30px 0 5px;
+}
+
+.text2 {
+    padding: 0 20px 0 20px;
+}
+
+.text3 {
+    padding: 0 5px 0 30px;
+}
+
+.portfolio, .our-team {
+    background-color: #f7f7f7;
+}
+
+.portfolio-container {
+    padding-bottom: 127px;
+}
+
+.portfolio-items {
+    display: inline-block;
+    box-sizing: border-box;
+    vertical-align: top;
+    width: 290px;
+    margin: 60px 0 -10px 0;
+    background-color: white;
+}
+
+.portfolio-items:nth-child(3n+1) {
+    margin: 60px 35px -10px 35px;
+}
+
+.portfolio-items h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333333;
+    letter-spacing: -1px;
+    text-align: center;
+    padding: 8px 5px 0 0;
+    margin-bottom: 0;
+}
+
+.portfolio-items p {
+    font-family: 'Droid Serif', arial;
+    font-size: 14px;
+    text-align: center;
+    margin: 0;
+    padding-bottom: 30px;
+    color: #737373;
+}
+
+.portfolio-items:hover {
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    cursor: pointer;
+}
+
+.portfolio-pics img {
+    width: 290px;
+    height: 300px;
+}
+
+.about-container {
+    padding-bottom: 115px;
+}
+
+.about-date, .about-date-right {
+    display: inline-block;
+    vertical-align: top;
+    width: 35%;
+    margin: 0;
+}
+
+.about-date-right {
+    margin-top: 0;
+}
+
+.about-date-header h3, .about-date-header-right h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: -1px;
+    text-align: right;
+    text-transform: uppercase;
+    color: #222222;
+}
+
+.about-date-header h3, .about-date-subtitle p {
+    margin: 5px -5px 0 0;
+}
+
+.about-date-header-right h3, .about-date-subtitle-right p {
+    margin: 5px 0 0 -10px;
+}
+
+.about-date-subtitle p, .about-date-subtitle-right p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: -1px;
+    text-align: right;
+    color: #222222;
+}
+
+.about-date-description p {
+    margin: 5px -5px 0 0;
+}
+
+.about-date-description-right p {
+    margin: 5px 0 0 -10px;
+}
+
+.about-date-description p, .about-date-description-right p {
+    font-family: 'Roboto Slab', arial;
+    font-size: 14px; 
+    font-weight: normal;
+    text-align: right;
+    line-height: 1.5em;
+    letter-spacing: -0.5px;
+    color: #777777;
+    margin-top: 10px;
+}
+
+.about-date-description p {
+    padding-left: 50px;
+}
+
+.about-date-description-right p {
+    padding-right: 50px;
+}
+
+.about-date-header-right h3, .about-date-subtitle-right p, .about-date-description-right p {
+    text-align: left;
+}
+
+.about-date-image {
+    display: inline-block;
+    vertical-align: top;
+    width: 65%;
+    margin: 0;
+}
+
+.date-image {
+    text-align: left;
+    margin-left: 30px;
+}
+
+.date-image-right {
+    text-align: right;
+    margin-right: 50px;
+}
+
+.date-image:after {
+    content: url(pics/about_us/vertical_line.png);
+    display: block;
+    text-align: left;
+    padding-left: 110px;
+}
+
+.date-image-right:after {
+    content: url(pics/about_us/vertical_line.png);
+    display: block;
+    text-align: right;
+    padding-right: 90px;
+}
+
+.july-header {
+    margin: 60px -5px 0 0;
+}
+
+.july-pic {
+    margin-top: 60px;
+}
+
+.our-team-profile {
+    display: inline-block;
+    box-sizing: border-box;
+    vertical-align: top;
+    width: 33.33%;
+    margin: 60px 0 25px 0;
+}
+
+.our-team-profile h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: #222222;
+    letter-spacing: -1px;
+    margin-bottom: 0;
+}
+
+.our-team-profile p {
+    font-family: 'Roboto Slab', arial;
+    font-size: 14px; 
+    line-height: 1.5em;
+    letter-spacing: -0.5px;
+    margin-top: 11px;
+    color: #777777;
+}
+
+.profile1 {
+    text-align: right;
+    padding-left: 70px;
+}
+
+.profile3 {
+    text-align: left;
+    padding-right: 70px;
+}
+
+.profile-description {
+    text-align: center;
+}
+
+.profile-description p {
+    margin: 0 0 10px 0;
+}
+
+.our-team-profile-description {
+    font-family: 'Roboto Slab', arial;
+    font-size: 16px; 
+    width: 600px;
+    line-height: 1.5em;
+    letter-spacing: -0.5px;
+    margin: 0 auto;
+    margin-top: 10px;
+    padding-bottom: 115px;
+    color: #777777;
+}
+
+.twitter {
+    background-image: url(pics/our_team/twitter.png);
+    display: inline-block;
+    width: 51px;
+    height: 51px;
+}
+
+.twitter:hover {
+    background-image: url(pics/our_team/twitter-hover.png);  
+}
+
+.facebook {
+    background-image: url(pics/our_team/facebook.png);
+    display: inline-block;
+    width: 51px;
+    height: 51px;
+}
+
+.facebook:hover {
+    background-image: url(pics/our_team/facebook-hover.png);  
+}
+
+.pinterest {
+    background-image: url(pics/our_team/pinterest.png);
+    display: inline-block;
+    width: 51px;
+    height: 51px;
+}
+
+.pinterest:hover {
+    background-image: url(pics/our_team/pinterest-hover.png);  
+}
+
+.google {
+    background-image: url(pics/our_team/google+.png);
+    display: inline-block;
+    width: 51px;
+    height: 51px;
+}
+
+.google:hover {
+    background-image: url(pics/our_team/google+_hover.png);  
+}
+
+.sponsors-name {
+    margin: 60px 0 65px 0;
+}
+
+.sponsors-name a {
+    padding: 0 15px 0 15px;
+}
+
+.contact-form {
+    display: inline-block;
+    box-sizing: border-box;
+    vertical-align: top;
+    text-align: left;
+    margin: 60px 0 30px 0;
+    width: 50%;
+    height: 215px;
+}
+
+input {
+    width: 418px;
+    padding: 20px;
+    margin: 0 10px 20px 0;
+    border-style: none;
+    border-radius: 3px;
+}
+
+input:last-child {
+    margin-bottom: 0;
+}
+
+.textField, input::placeholder, textarea::placeholder {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: #bbbbbb;
+    text-transform: uppercase;
+}
+
+.textField {
+    color: #222222;
+}
+
+.text-form {
+    display: inline-block;
+    box-sizing: border-box;
+    vertical-align: top;
+    margin: 60px 0 0 0;
+    width: 50%;
+    height: 215px;
+}
+
+textarea {
+    width: 418px;
+    padding: 20px 20px 45px 20px;
+    margin: 0 20px 0 15px;
+    border-style: none;
+    border-radius: 3px;
+    height: 150px;
+}
+
+.footer-container button {
+    margin-bottom: 113px;
+}
+
+.copyright {
+    display: inline-block;
+    box-sizing: border-box;
+    text-align: left;
+    margin: 20px 50px 20px 0;
+}
+
+.copyright p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    line-height: 1.5em;
+    letter-spacing: 0.5px;
+    font-weight: 600;
+    color: #555555;
+}

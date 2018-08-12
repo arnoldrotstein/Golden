@@ -1,0 +1,62 @@
+.spritesheet {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    margin-left: 60px;
+}
+
+.sprite-1_twitter {
+    background-image: url(pics/sprite/1_twitter.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    margin-right: 5px;
+    width: 41px;
+    height: 42px;
+}
+
+.sprite-1_twitter:hover {
+    background-image: url(pics/sprite/twitter-hover.png);
+}
+
+.sprite-2_facebook {
+    background-image: url(pics/sprite/2_facebook.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    margin-right: 5px;
+    width: 41px;
+    height: 42px;
+}
+
+.sprite-2_facebook:hover {
+    background-image: url(pics/sprite/facebook-hover.png);
+}
+
+.sprite-3_pinterest {
+    background-image: url(pics/sprite/3_pinterest.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    margin-right: 5px;
+    width: 41px;
+    height: 42px;
+}
+
+.sprite-3_pinterest:hover {
+    background-image: url(pics/sprite/pinterest-hover.png);
+}
+
+.sprite-4_google_ {
+    background-image: url(pics/sprite/4_google+.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    margin-right: 5px;
+    width: 41px;
+    height: 42px;
+}
+
+.sprite-4_google_:hover {
+    background-image: url(pics/sprite/google+_hover.png);
+}
+
+.sprite-1_twitter:hover, .sprite-2_facebook:hover, .sprite-3_pinterest:hover, .sprite-4_google_:hover {
+    cursor: pointer;
+}
