@@ -12,6 +12,9 @@
     margin-right: 5px;
     width: 41px;
     height: 42px;
+    -webkit-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s;
 }
 
 .sprite-1_twitter:hover {
@@ -25,6 +28,9 @@
     margin-right: 5px;
     width: 41px;
     height: 42px;
+    -webkit-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s;
 }
 
 .sprite-2_facebook:hover {
@@ -38,6 +44,9 @@
     margin-right: 5px;
     width: 41px;
     height: 42px;
+    -webkit-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s;
 }
 
 .sprite-3_pinterest:hover {
@@ -51,6 +60,9 @@
     margin-right: 5px;
     width: 41px;
     height: 42px;
+    -webkit-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s;
 }
 
 .sprite-4_google_:hover {

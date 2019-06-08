@@ -71,6 +71,9 @@ footer h2 {
     line-height: 2.5em;
     letter-spacing: 0.5px;
     padding-right: 40px;
+    -webkit-transition: .2s;
+    -o-transition: .2s;
+    transition: .2s;
 }
 
 .navigation a:last-child {
@@ -108,6 +111,8 @@ footer h2 {
     background-color: #fed136;
     color: white;
     text-transform: uppercase;
+    -webkit-transition: .4s;
+    -o-transition: .4s;
     transition: .4s;
     width: 240px;
     height: 65px;
@@ -125,8 +130,11 @@ footer h2 {
 .button-link:hover, button:hover {
     background-color: white;
     color: #fed136;
-    box-shadow: inset 3px 3px 6px rgba(154, 147, 140, 0.5), 1px 1px 5px rgba(255, 255, 255, 1);
-    transform: skewX(-20deg);
+    -webkit-box-shadow: inset 3px 3px 6px rgba(154, 147, 140, 0.5), 1px 1px 5px rgba(255, 255, 255, 1);
+            box-shadow: inset 3px 3px 6px rgba(154, 147, 140, 0.5), 1px 1px 5px rgba(255, 255, 255, 1);
+    -webkit-transform: skewX(-20deg);
+        -ms-transform: skewX(-20deg);
+            transform: skewX(-20deg);
     cursor: pointer;
 }
 
@@ -144,7 +152,8 @@ footer h2 {
 
 .services-tools {
     display: inline-block;
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
     vertical-align: top;
     width: 33.33%;
     margin: 60px 0 100px 0;
@@ -198,11 +207,15 @@ footer h2 {
 
 .portfolio-items {
     display: inline-block;
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
     vertical-align: top;
     width: 290px;
     margin: 60px 0 -10px 0;
     background-color: white;
+    -webkit-transition: .2s linear;
+    -o-transition: .2s linear;
+    transition: .2s linear;
 }
 
 .portfolio-items:nth-child(3n+1) {
@@ -230,7 +243,8 @@ footer h2 {
 }
 
 .portfolio-items:hover {
-    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.5);
+            box-shadow: 0 0 10px rgba(0,0,0,0.5);
     cursor: pointer;
 }
 
@@ -351,9 +365,46 @@ footer h2 {
     margin-top: 60px;
 }
 
+.last-image img {
+    -webkit-animation: spin 3s ease-in-out alternate infinite;
+            animation: spin 3s ease-in-out alternate infinite;
+}
+
+.last-image img:hover {
+    -webkit-animation-play-state: paused;
+            animation-play-state: paused;
+}
+
+@-webkit-keyframes spin {
+    
+    from {
+        -webkit-transform: rotate(0deg);
+                transform: rotate(0deg);
+    } 
+    to {
+        -webkit-transform: rotate(360deg);
+                transform: rotate(360deg);
+    }
+    
+}
+
+@keyframes spin {
+    
+    from {
+        -webkit-transform: rotate(0deg);
+                transform: rotate(0deg);
+    } 
+    to {
+        -webkit-transform: rotate(360deg);
+                transform: rotate(360deg);
+    }
+    
+}
+
 .our-team-profile {
     display: inline-block;
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
     vertical-align: top;
     width: 33.33%;
     margin: 60px 0 25px 0;
@@ -412,6 +463,9 @@ footer h2 {
     display: inline-block;
     width: 51px;
     height: 51px;
+    -webkit-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s;
 }
 
 .twitter:hover {
@@ -423,6 +477,9 @@ footer h2 {
     display: inline-block;
     width: 51px;
     height: 51px;
+    -webkit-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s;
 }
 
 .facebook:hover {
@@ -434,6 +491,9 @@ footer h2 {
     display: inline-block;
     width: 51px;
     height: 51px;
+    -webkit-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s;
 }
 
 .pinterest:hover {
@@ -445,6 +505,9 @@ footer h2 {
     display: inline-block;
     width: 51px;
     height: 51px;
+    -webkit-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s;
 }
 
 .google:hover {
@@ -461,7 +524,8 @@ footer h2 {
 
 .contact-form {
     display: inline-block;
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
     vertical-align: top;
     text-align: left;
     margin: 60px 0 30px 0;
@@ -481,6 +545,30 @@ input:last-child {
     margin-bottom: 0;
 }
 
+.textField, input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: #bbbbbb;
+    text-transform: uppercase;
+}
+
+.textField, input:-ms-input-placeholder, textarea:-ms-input-placeholder {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: #bbbbbb;
+    text-transform: uppercase;
+}
+
+.textField, input::-ms-input-placeholder, textarea::-ms-input-placeholder {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: #bbbbbb;
+    text-transform: uppercase;
+}
+
 .textField, input::placeholder, textarea::placeholder {
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
@@ -495,7 +583,8 @@ input:last-child {
 
 .text-form {
     display: inline-block;
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
     vertical-align: top;
     margin: 60px 0 0 0;
     width: 50%;
@@ -517,7 +606,8 @@ textarea {
 
 .copyright {
     display: inline-block;
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
     text-align: left;
     margin: 20px 50px 20px 0;
 }
